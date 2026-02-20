@@ -25,8 +25,8 @@ This repo presents my approach at building a customer eKYC system used by banks 
 ├── anchors.npy           # NumPy file containing pre-set anchors for the BlazeFace face detector.
 ├── requirements.txt      # Python dependencies.
 ├── app.py     # Complete eKYC pipeline: liveliness detection --> face matching.
-├── crop_recog_persistant_inf.ipynb  # Runs the entire inference pipeline i.e. supply test image --> faces get detected and cropped --> Embeddings get generated and matched with the cached gallery embeddings.
-├── demo.py            # A Streamlit demo of the entire project.
+├── blazeface.pth  # BlazeFace weights file for fast, mobile-native face recognition.
+├── blazeface.py            # Implements the BlazeFace face detector for weight injection.
 ├── my_dlib_funcs.py   # Some utility functions for embeddings generation and caching.
 ├── gallery_embeddings.pkl   # Embedding cache represented as a pickle file.
 ├── requirements.txt   # Project dependencies
