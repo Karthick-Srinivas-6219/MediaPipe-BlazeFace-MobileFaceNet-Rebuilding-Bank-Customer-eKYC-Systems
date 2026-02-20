@@ -15,4 +15,3 @@ This repo presents my approach at building a customer eKYC system used by banks 
 ✅ **BlazeFace**: A **mobile-native, lightweight face detector** that is used to **capture** the customers face when he initiates the eKYC process, after **passing** the liveliness detection phase.
 
 ✅ **MobileFaceNet**: A **mobile-native, lightweight face embedderr** that extracts facial features and represents them as an **embedding vector of 128-dimensions**. Embeddings are generated for the customer's **captured face** and their **face image in the submitted official document (aadhar, passport etc.)**. To verify identity, **euclidean distance based similarity score** is computed between the 2 embeddings if the distance is **under 0.45** then identity is verified else eKYC has failed. 
----
