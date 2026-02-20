@@ -6,7 +6,7 @@ This repo presents my approach at building a customer eKYC system used by banks 
 [[Link to Demo]](https://youtu.be/Z6WPcFX8OxI "Click to watch")
 
 # Overview of the pipeline
-![Alt text](InScene_Full_Workflow_Github.png)
+![Alt text](complete_ekyc_pipeline.png)
 
 ## 🚀 Features
 
