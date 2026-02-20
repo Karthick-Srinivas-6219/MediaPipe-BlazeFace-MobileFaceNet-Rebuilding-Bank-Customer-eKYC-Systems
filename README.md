@@ -1,0 +1,2 @@
+# MediaPipe-BlazeFace-MobileFaceNet-Rebuilding-Bank-Customer-eKYC-Systems
+This repo presents my approach at building a customer eKYC system used by banks etc. from scratch. These Systems have 2 components - Liveliness Detection (Blinking &amp; Head Rotations - Used MediaPipe Keypoints) &amp; Face Matching (Current face capture with face image on an official document like Aadhar etc. - Used BlazeFace + MobileFaceNet). 
